@@ -1,0 +1,57 @@
+# Kubernetes-generated files
+kubeconfig
+*.kubeconfig
+.kube/
+
+# Environment-specific files
+.env
+*.env
+.env.*
+!.env.example
+
+# Secret files
+*secret*.yaml
+*secrets*.yaml
+*secret*.yml
+*secrets*.yml
+
+# Local development files
+*.local
+*.local.*
+
+# Generated files
+*.generated.*
+generated/
+
+# Custom resource definitions backup
+crds-backup/
+
+# Helm-specific
+charts/*/charts
+charts/*/Chart.lock
+*.tgz
+
+# Terraform (if used with k8s)
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Debug files
+*.log
+debug/
+
+# Temporary files
+tmp/
+temp/
